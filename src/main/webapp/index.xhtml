@@ -35,10 +35,13 @@
             </p>
 
             <h:messages styleClass="text-danger"/>
-
+            
             <div class="alert alert-info">
-                <h:outputText
-                    value="#{announcementBean.serviceStatus}"/>
+                <strong>College:</strong>
+                <h:outputText value="#{collegeInfoService.collegeName}"/>
+                <br/>
+                <strong>Department:</strong>
+                <h:outputText value="#{collegeInfoService.department}"/>
             </div>
 
             <h2 class="h4 mb-3">Latest Announcements</h2>
