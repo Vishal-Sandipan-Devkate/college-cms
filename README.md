@@ -103,6 +103,3 @@ which is mapped by the web configuration and served as the application landing p
 - JSF pages are served through the `FacesServlet` configured in `src/main/webapp/WEB-INF/web.xml`.
 - The project is packaged as a WAR, which is standard for Java EE web applications.
 
-## License
-
-This project currently does not include an explicit license file. If you plan to distribute or reuse it, add the appropriate license before publishing.
